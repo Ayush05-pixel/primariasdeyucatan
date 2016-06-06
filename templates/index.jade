@@ -1,0 +1,9 @@
+extends ./base.jade
+
+block contents
+  div#map
+
+block scripts
+  script(type="text/javascript" src="javascripts/bundle.js")
+
+  script(async, defer, type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsJ2oXkblpF2C06meTvhGBGzyKuhjj1wA&callback=initMap&libraries=visualization")
